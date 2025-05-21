@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Signika+Negative:wght@300..700&display=swap');
+
+:root{
+  --cor1: #0077B6;
+  --cor2: #4F83CC;
+  --cor3: #A8C6EA;
+  --cor4: #00587A;
+  --cor5: #FF6B6B;
+}
+
+#O{
+    font-size: 100px;
+
+}
+
+main{
+  border: 13px solid var(--cor1);
+  
+}
+
+body{
+    margin: 0px;
+    
+}
+
+.destaque{
+  text-decoration: underline;
+  color: #00CFC1;
+  text-shadow: 1px 1px 3px #2e2e2e8c;
+}
+#TituloCabecario{
+    color: #F8F9FA;
+    font-family: inter;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: center;
+    margin-top: -68px;
+    font-size: 68px;
+    position: relative;
+    top: 58px;
+}
+#FraseMotivacional{
+    font-family: inter;
+    text-align: center;
+    color: #F8F9FA;
+    font-style: italic;
+    margin-top: -20px;
+    white-space: pre-line;
+    position: relative;
+    top: 20px; 
+}
+
+header{
+    background-color: #0077B6;
+    padding: 6px;
+    
+}
+
+.conteudo{
+    text-indent: 10px;
+    text-align: center;
+    font-family: 'inter';
+    padding: 10px;
+    
+}
+
+#sobremim, #esportes{
+    background-color: rgb(77, 130, 203);
+    text-decoration: none;
+    color: #F8F9FA;
+    padding: 6px;
+    border-radius: 3px;
+    transition: background 0.5s ease;
+}
+
+#sobremim:hover, #esportes:hover{
+    background-color: #f8f9fa7a;
+    text-decoration: none;
+    color: #2E2E2E;
+    background: linear-gradient(to right, #0076b673, #ffffff7b);
+
+}
+
+#conteudoesporte1{
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: justify;
+    
+}
+#conteudoEsporte2{
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: justify;
+}
+
+#foto11{
+  transition: transform 0.3s ease;
+    img {
+        border-radius: 5px;
+  box-shadow: 5px 6px 16px #0000005e;
+  width: 60%; 
+  height: auto; 
+  
+}
+
+}
+
+@media (max-width: 924px) {
+  #foto11 img {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+@media (min-width: 925px) and (max-width: 1306px) {
+  #foto11 img {
+    max-width: 500px; 
+  }
+}
+
+.destaqueTitulos{
+  color: #00587A;
+  
+}
