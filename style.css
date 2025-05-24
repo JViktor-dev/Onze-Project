@@ -126,3 +126,37 @@ header{
   color: #00587A;
   
 }
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.imagem-sobreposta {
+  position: relative;
+  width: 300px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+
+.fundo,
+.pessoa {
+  
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.pessoa {
+  
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.fundo{
+  border-radius: 50px;
+}

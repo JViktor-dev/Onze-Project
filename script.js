@@ -45,3 +45,26 @@ imgOnze.addEventListener('click', () => {
     }, 1000);
   }
 });
+
+
+const fundo = document.querySelector('.fundo')
+const pessoa = document.querySelector('.pessoa')
+
+function transicaoImagem(){
+  pessoa.style.transition = 	"all 0.7s ease";
+  fundo.style.transition = 	"all 0.7s ease";
+  fundo.style.filter = 'grayscale(100%) blur(2px)';
+  fundo.style.borderRadius = "50px";
+}
+function resetarImagem(){
+  pessoa.style.transition = 	"all 0.7s ease";
+  fundo.style.transition = 	"all 0.7s ease";
+  fundo.style.filter = 'grayscale(0%) blur(0px)';
+  fundo.style.borderRadius = "0px";
+}
+pessoa.addEventListener('mouseenter', transicaoImagem)
+pessoa.addEventListener('click', transicaoImagem)
+
+
+pessoa.addEventListener('mouseleave', resetarImagem)
+pessoa.addEventListener('touchend', resetarImagem)
