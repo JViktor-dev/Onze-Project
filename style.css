@@ -18,8 +18,7 @@
 }
 
 main{
-  border: 13px solid var(--cor1);
-  
+  border: 10px solid var(--cor1);
 }
 
 body{
@@ -128,6 +127,7 @@ header{
 }
 
 .container {
+  padding: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
